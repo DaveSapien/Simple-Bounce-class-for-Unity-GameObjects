@@ -43,17 +43,7 @@ Shows the bounce curve in seconds.
 Number of seconds in preview controlled by the "Edit visualization timeframe (in seconds)" Slider.
 
 
-
 To call the bounce script in your own script follow the example in BounceControllerTester.cs.
-For example, to link to your game object scale you would do something like this:
-BounceController [] bouncers;
-        foreach (BounceController bounce in bouncers) {
-            if(bounce.name == "Youre bounce name"){
-                float P_Scale = bounce.getBounce();
-                transform.localScale = new Vector3(P_Scale, P_Scale, P_Scale);
- //bounce.setBounce(false); whenever you want to stop the bounce
-            }
-        }  
 
 
 -- 
