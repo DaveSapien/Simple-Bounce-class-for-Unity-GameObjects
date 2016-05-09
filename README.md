@@ -2,9 +2,11 @@
 A simple bouncing variable class with its own inspector window.
 The purpose for this is to add an easy to use 'bounce' controller to any game object in Unity. This is frame based, not time based. Only useful for visual effects.
 
+//---------------------------------------------------------------------------------------------
 Setup: 
 Place the scripts into you project, make sure BounceControllerEditor.cs is in your "Editor" folder(or just use the one here).
-
+//---------------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------------
 To use:
 You will need two scripts to use this, the BounceController.cs script and your own script that calls BounceController. An example script (BounceControllerTester.cs) is provided.
 
@@ -13,8 +15,8 @@ You will need two scripts to use this, the BounceController.cs script and your o
 2). Drag your script into the game object (or BounceControllerTester.cs).
 
 3). Basically done.
-
-
+//---------------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------------
 BounceController fields:
 
 Bounce Name, (variable name in the script is "name").
@@ -37,13 +39,17 @@ Sets the Deterioration of the bounce.
 
 Speed, (variable name in the script is "Speed").
 Sets the Speed of the bounce.
-
+//----
 Show curve, (only used to visualize the curve of the bounce).
 Shows the bounce curve in seconds. 
 Number of seconds in preview controlled by the "Edit visualization timeframe (in seconds)" Slider.
-
-
+//----
+"Show QuickControlls for direct gameobject controll" (for quck and dirty usage)
+A drop down to toggle direct control of the host game object without the need for another script.
+Toggles to link Scale, Movement, and Rotation to the bounce Magnitude. (all of these are local controlls)
+//---------------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------------
 To call the bounce script in your own script follow the example in BounceControllerTester.cs.
-
+//---------------------------------------------------------------------------------------------
 
 -- 
