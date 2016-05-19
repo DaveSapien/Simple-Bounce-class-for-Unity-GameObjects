@@ -2,10 +2,10 @@
 using System.Collections;
 [ExecuteInEditMode]
 public class BounceControllerTester : MonoBehaviour {
-	private BounceController [] bouncers;
+	private SapienTools.BounceController [] bouncers;
 	// Use this for initialization
 	void Start () {
-		bouncers = GetComponents<BounceController>();
+		bouncers = GetComponents<SapienTools.BounceController>();
 		foreach (BounceController bounce in bouncers) {
 			if(bounce.name == "Your bounce name")bounce.setBounce(true);
 		}
@@ -13,7 +13,7 @@ public class BounceControllerTester : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update(){
-		foreach (BounceController bounce in bouncers) {
+		foreach (SapienTools.BounceController bounce in bouncers) {
 			if(bounce.name == "Your bounce name"){
 				float P_Scale = bounce.getBounce();
 				transform.localScale = new Vector3(P_Scale, P_Scale, P_Scale);//old stuff for debugging

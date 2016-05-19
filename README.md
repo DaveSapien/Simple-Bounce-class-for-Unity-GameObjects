@@ -3,7 +3,8 @@
 <p>A simple bouncing variable class with its own inspector window.
 The purpose for this is to add an easy to use 'bounce' controller to any game object in Unity. This is frame based, not time based. Only useful for visual effects.</p>
 
-<p>//---------------------------------------------------------------------------------------------<p>
+<p>
+//---------------------------------------------------------------------------------------------<p>
 Setup: 
 Place the scripts into you project, make sure BounceControllerEditor.cs is in your "Editor" folder(or just use the one here).<p>
 //---------------------------------------------------------------------------------------------<p>
@@ -16,7 +17,7 @@ You will need two scripts to use this, the BounceController.cs script and your o
 <p>2). Drag your script into the game object (or BounceControllerTester.cs).</p>
 
 <p>3). Basically done.<p>
-//---------------------------------------------------------------------------------------------<p>
+//---------------------------------------------------------------------------------------------<br>
 //---------------------------------------------------------------------------------------------<p>
 BounceController fields:</p>
 
@@ -49,7 +50,7 @@ Number of seconds in preview controlled by the "Edit visualization timeframe (in
 A drop down to toggle direct control of the host game object without the need for another script.
 Toggles to link Scale, Movement, and Rotation to the bounce Magnitude. (all of these are local controlls)<p>
 
-//---------------------------------------------------------------------------------------------<p>
+//---------------------------------------------------------------------------------------------br>
 //---------------------------------------------------------------------------------------------<p>
 To call the bounce script in your own script follow the example in BounceControllerTester.cs.
 //---------------------------------------------------------------------------------------------</p>
