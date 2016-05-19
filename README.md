@@ -2,9 +2,8 @@
 
 <p>A simple bouncing variable class with its own inspector window.
 The purpose for this is to add an easy to use 'bounce' controller to any game object in Unity. This is frame based, not time based. Only useful for visual effects.</p>
-
+![screenshot](https://raw.githubusercontent.com/DaveSapien/Simple-Bounce-class-for-Unity-GameObjects/master/ScreenShot1.jpg)
 <p>
-//---------------------------------------------------------------------------------------------<p>
 Setup: 
 Place the scripts into you project, make sure BounceControllerEditor.cs is in your "Editor" folder(or just use the one here).<p>
 //---------------------------------------------------------------------------------------------<p>
